@@ -1,14 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sf="clr-namespace:Com.Syncfusion.Calendar;assembly=Syncfusion.SfCalendar.Android"
+             xmlns:SfCal="clr-namespace:Syncfusion.SfCalendar.XForms;assembly=Syncfusion.SfCalendar.XForms"
+             xmlns:schedule="clr-namespace:Com.Syncfusion.Schedule;assembly=Syncfusion.SfSchedule.Android"
+             xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:local="clr-namespace:NijiScheduler"
              x:Class="NijiScheduler.MainPage">
 
     <StackLayout>
         <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
+        <schedule:sfSchedule>
+            
+        </schedule:sfSchedule>
+        <StackLayout>
+            
+        </StackLayout>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
