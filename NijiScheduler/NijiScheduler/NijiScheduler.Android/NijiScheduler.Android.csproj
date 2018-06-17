@@ -73,6 +73,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.Core">
+      <Version>16.1.0.37</Version>
+    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfCalendar.Android">
       <Version>16.1.0.37</Version>
     </PackageReference>

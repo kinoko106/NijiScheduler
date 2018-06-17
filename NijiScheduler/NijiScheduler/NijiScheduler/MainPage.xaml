@@ -7,14 +7,10 @@
              xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:local="clr-namespace:NijiScheduler"
              x:Class="NijiScheduler.MainPage">
-
     <StackLayout>
         <!-- Place new controls here -->
-        <schedule:sfSchedule>
-            
-        </schedule:sfSchedule>
         <StackLayout>
-            
+            <SfCal:SfCalendar ViewMode="MonthView" x:Name="cal" VerticalOptions="FillAndExpand"/>
         </StackLayout>
         <StackLayout>
             <Label Text="Welcome to Xamarin.Forms!" 
